@@ -1,6 +1,6 @@
 <?php
-$user = "Cora";
-$passwd = "Cora3022";
+$user = "User";
+$passwd = "Contraseña";
 $bd = "Estudiantes";
 $host = "localhost";
 $conexion = mysqli_connect($host, $user, $passwd, $bd);
