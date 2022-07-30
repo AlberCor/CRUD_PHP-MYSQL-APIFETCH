@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #C6FFDD;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    width: 700px;
+    height: auto;
+    margin: 30px auto;
+    background: #CAFCD7;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #000000;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.group{
+    margin: 15px 0 10px 25px;
+    padding: 10px;
+
+}
+.text-input{
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.buttons{
+    text-align: center;
+}
+.text-input:focus{
+    border-bottom: solid #F8887E;
+
+}
